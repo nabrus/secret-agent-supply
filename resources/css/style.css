@@ -32,3 +32,16 @@ html {
   margin-left: 1rem;
   padding: 0.66rem 0;
 }
+
+
+
+
+
+/* HERO IMAGE */
+
+.hero-img {
+  background-image: url(../../resources/images/moto.jpeg);
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+}
