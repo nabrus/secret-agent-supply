@@ -8,18 +8,19 @@ html {
 
 .site-container {
   width: 960px;
-  display: flex;
+  margin: 0 auto; /* use this ?? */
+  /* display: flex; */
   border: 3px solid green;
 }
 
 
 
+
+
 /* HEADER */
 
-.logo {
-  background-color: black;
+.logo-box {
   display: flex;
-  justify-content: center;
 }
 
 .logo__img {
@@ -29,8 +30,11 @@ html {
 }
 
 .logo__name {
-  margin-left: 1rem;
-  padding: 0.66rem 0;
+  padding: 0.66rem 1rem;
+}
+
+.logo--background {
+  background-color: black;
 }
 
 
@@ -41,7 +45,45 @@ html {
 
 .hero-img {
   background-image: url(../../resources/images/moto.jpeg);
+  background-size: cover;
   height: 25rem;
-  display: flex;
+  /* display: flex;
   justify-content: center;
+  /* align-items: center; */
+}
+
+.hero-img__container {
+  border: 1px solid lightblue; /* remove */
+  width: 20rem;
+  background-color: black;
+  position: relative;
+  top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.hero-img__text--sm {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.hero-img__text--lg {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem; /* redline states 0.25rem */
+}
+
+
+
+
+
+/* SITE NAVIGATION */
+
+.nav--background {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+.nav__box {
+  display: flex;
+  justify-content: space-between;
 }
