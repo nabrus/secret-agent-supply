@@ -8,9 +8,7 @@ html {
 
 .site-container {
   width: 960px;
-  margin: 0 auto; /* use this ?? */
-  /* display: flex; */
-  border: 3px solid green;
+  margin: 0 auto;
 }
 
 
@@ -49,13 +47,9 @@ html {
   background-position: center;
   background-size: cover;
   height: 25rem;
-  /* display: flex;
-  justify-content: center;
-  /* align-items: center; */
 }
 
 .hero-img__container {
-  border: 1px solid lightblue; /* remove */
   width: 20rem;
   background-color: black;
   position: relative;
@@ -71,7 +65,7 @@ html {
 .hero-img__text--lg {
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 1rem; /* redline states 0.25rem */
+  padding-top: 1.5rem;
 }
 
 
@@ -133,10 +127,34 @@ html {
 /* STORE INFO */
 
 .store {
-  border: 2px solid pink;
+  display: flex;
+  justify-content: space-between;
 }
 
 .store-info {
-  border: 2px solid red;
+  width: 35%;
+}
+
+.title {
+  display: block;
   background-color: black;
+  padding: 1rem 2rem;
+}
+
+.info {
+  display: block;
+  color: black;
+  margin-top: 0.25rem;
+}
+
+
+
+
+
+/*  FOOTER  */
+
+footer {
+  background-color: black;
+  margin-top: 4rem;
+  padding: 5rem 0;
 }
