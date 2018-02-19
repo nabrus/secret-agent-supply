@@ -210,7 +210,7 @@ footer {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   /* Smart phone size screens */
 
   /*  HEADER  */
@@ -252,7 +252,7 @@ footer {
     padding-top: 0.25rem;
   }
 
-  /* .hero-img__container {
+  /* .hero-img__container {     /* ( puts header under banner )
     display: none;
   }
 
@@ -274,4 +274,36 @@ footer {
     font-size: 1rem;
     padding-top: 1rem;
   } */
+
+  /*  PRODUCT ITEMS  */
+
+  .watch {
+    display: none;
+  }
+
+  .pen {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /*  STORE INFO  */
+
+  .store {
+    display: block;
+  }
+
+  .store-info {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .info {
+    padding-bottom: 0.5rem;
+  }
+
+  /*  FOOTER  */
+
+  footer {
+    text-align: center;
+  }
 }
