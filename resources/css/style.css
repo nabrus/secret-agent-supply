@@ -1,4 +1,4 @@
-/* UNIVERSAL STYLE */
+/*  UNIVERSAL STYLE  */
 
 html {
   font-family: Helvetica, sans-serif;
@@ -7,7 +7,8 @@ html {
 }
 
 .site-container {
-  width: 960px;
+  max-width: 960px;
+  /* width: 97%; */
   margin: 0 auto;
 }
 
@@ -15,7 +16,7 @@ html {
 
 
 
-/* HEADER */
+/*  HEADER  */
 
 .logo-box {
   display: flex;
@@ -39,7 +40,7 @@ html {
 
 
 
-/* HERO IMAGE */
+/*  HERO IMAGE  */
 
 .hero-img {
   background-image: url(../../resources/images/moto.jpeg);
@@ -72,7 +73,7 @@ html {
 
 
 
-/* SITE NAVIGATION */
+/*  SITE NAVIGATION  */
 
 .nav__box {
   display: flex;
@@ -84,11 +85,14 @@ html {
   padding: 0.75rem 0;
 }
 
+.med-site {
+  display: none;
+}
 
 
 
 
-/* PRODUCT ITEMS */
+/*  PRODUCT ITEMS  */
 
 .products {
   padding: 3rem 0;
@@ -124,7 +128,7 @@ html {
 
 
 
-/* STORE INFO */
+/*  STORE INFO  */
 
 .store {
   display: flex;
@@ -157,4 +161,35 @@ footer {
   background-color: black;
   margin-top: 4rem;
   padding: 5rem 0;
+}
+
+
+
+
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (max-width: 1024px) {
+
+  /* SITE NAVIGATION */
+
+  .lg-site {
+    display: none;
+  }
+
+  .med-site {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /*  PRODUCT ITEMS  */
+
+  .glasses {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
+
 }
